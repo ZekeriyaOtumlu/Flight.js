@@ -1,0 +1,26 @@
+{
+  "name": "Flight.js",
+  "version": "1.0.0",
+  "description": "Liri-Node-App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZekeriyaOtumlu/Flight.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZekeriyaOtumlu/Flight.js/issues"
+  },
+  "homepage": "https://github.com/ZekeriyaOtumlu/Flight.js#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1"
+  }
+}
