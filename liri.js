@@ -26,9 +26,9 @@ function getBandsInTown(artist) {
             // adding a line break for clarity of when search results begin
             console.log("=============================");
             //console.log(response);
-            console.log("Name of the venue: " + response.data[0].venue.name + "\r\n");
-            console.log("Venue Location: " + response.data[0].venue.city + "\r\n");
-            console.log("Date of event: " + moment(response.data[0].datetime).format("MM-DD-YYYY") + "\r\n");
+            console.log("Name of the venue: " + response.data[0].venue.name + "\n");
+            console.log("Venue Location: " + response.data[0].venue.city + "\n");
+            console.log("Date of event: " + moment(response.data[0].datetime).format("MM-DD-YYYY LT") + "\r\n");
 
             // Append text into log.txt file
             var logConcert = "==========CONCERT INFO BEGINNING HERE======" + "\n Musician Name: " + artist + "\n Name of the venue: " + response.data[0].venue.name + "\nVenue Location: " + response.data[0].venue.city + "\n Date of Event: " + moment(response.data[0].datetime).format("MM-DD-YYYY") + "\n======END INFO FOR CONCERT HERE======" + "\n";
@@ -46,12 +46,12 @@ function getOMDB(movie) {
     //console.log("Movie: " + movie);
     //If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
     if (!movie) {
-        movie = "Mr. Nobody";
+        movie = "";
     }
     var movieQueryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
     //console.log(movieQueryUrl);
 
-    axios.request(movieQueryUrl).then(
+    axios.get(movieQueryUrl).then(
         function (response) {
             // console.log(response.data);
             // adding a line break for clarity of when search results begin

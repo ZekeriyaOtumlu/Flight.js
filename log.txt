@@ -66,3 +66,47 @@ Language: English, Mandarin
 Plot: When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.
 Actors: Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine
 ======END INFO FOR MOVIE HERE======
+======MOVIE INFO BEGINNING HERE======
+Movie title: Up
+Year released: 2009
+IMDB rating: 8.2
+Rotten Tomatoes rating: 98%
+Country where produced: USA
+Language: English
+Plot: Seventy-eight year old Carl Fredricksen travels to Paradise Falls in his home equipped with balloons, inadvertently taking a young stowaway.
+Actors: Edward Asner, Christopher Plummer, Jordan Nagai, Bob Peterson
+======END INFO FOR MOVIE HERE======
+======MOVIE INFO BEGINNING HERE======
+Movie title: Up
+Year released: 2009
+IMDB rating: 8.2
+Rotten Tomatoes rating: 98%
+Country where produced: USA
+Language: English
+Plot: Seventy-eight year old Carl Fredricksen travels to Paradise Falls in his home equipped with balloons, inadvertently taking a young stowaway.
+Actors: Edward Asner, Christopher Plummer, Jordan Nagai, Bob Peterson
+======END INFO FOR MOVIE HERE======
+======SPOTIFY INFO BEGINNING HERE======
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+ Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
+Album Name: The Hits--Chapter One
+======END INFO FOR SPOTIFY HERE======
+======SPOTIFY INFO BEGINNING HERE======
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+ Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
+Album Name: The Hits--Chapter One
+======END INFO FOR SPOTIFY HERE======
+======SPOTIFY INFO BEGINNING HERE======
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+ Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
+Album Name: The Hits--Chapter One
+======END INFO FOR SPOTIFY HERE======
+======SPOTIFY INFO BEGINNING HERE======
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+ Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
+Album Name: The Hits--Chapter One
+======END INFO FOR SPOTIFY HERE======
