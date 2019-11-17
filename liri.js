@@ -28,7 +28,7 @@ function getBandsInTown(artist) {
             //console.log(response);
             console.log("Name of the venue: " + response.data[0].venue.name + "\n");
             console.log("Venue Location: " + response.data[0].venue.city + "\n");
-            console.log("Date of event: " + moment(response.data[0].datetime).format("MM-DD-YYYY LT") + "\r\n");
+            console.log("Date of event: " + moment(response.data[0].datetime).format("MM-DD-YYYY LT") + "cl");
 
             // Append text into log.txt file
             var logConcert = "==========CONCERT INFO BEGINNING HERE======" + "\n Musician Name: " + artist + "\n Name of the venue: " + response.data[0].venue.name + "\nVenue Location: " + response.data[0].venue.city + "\n Date of Event: " + moment(response.data[0].datetime).format("MM-DD-YYYY") + "\n======END INFO FOR CONCERT HERE======" + "\n";
@@ -108,7 +108,7 @@ function runLiriApp(userInput, userSearch) {
         case "spotify-this-song":
             getSpotify(userSearch);
             break;
-
+            
         case "concert-this":
             getBandsInTown(userSearch);
             break;
